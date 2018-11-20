@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[1-1函数]]></title>
+    <url>%2Fblog%2F734b086b%2F</url>
+    <content type="text"><![CDATA[要求填空题解要求理解分段函数，复合函数，初等函数，反函数，隐函数的概念与特性填空题1设$f(x)$为奇函数，且当$x\ge 0$ 时，$f(x)=\sqrt{x}$，则当$x \lt 0 $时，$f(x)=?$。奇函数是指对于一个定义域关于原点对称的函数$f(x)$的定义域内任意一个x，都有$f(-x)= - f(x)$，那么函数$f(x)$就叫做奇函数（odd function）。解因为$f(-x)= - f(x)$，所以$-f(-x)=f(x)$,即$f(x)=-f(-x)=-\sqrt{-x}$2函数 $f(x)=\sqrt{3-x}+arctan\dfrac{1}{x}$的定义域是？具体函数定义域的求法如果f(x)是整式,那么函数的定义域是实数集R;如果f(x)是分式$f(x)=\dfrac{x}{y}$,那么函数的定义域是使分母不等于零的实数的集合,$y\not=0$;如果f(x)是偶次根式$f(x)=\sqrt[n]{x}$,$n$为偶数那么函数的定义域是使根号内的式子大于或等于零的实数的集合;如果f(x)中含有0次幂因式,$f(x)=x^0$,则要求0次幂的底数不为0,$x\not=0$;如果f(x)是由几部分数学式子构成的,那么函数的定义域是使各部分式子都有意义的实数集合;(即求各集合的交集)如果f(x)是由实际问题抽象出来的函数,则函数的定义域满足实际问题有意义。参考https://wenku.baidu.com/view/a778001a182e453610661ed9ad51f01dc28157c6.html?from=search解$$\begin{cases}3-x \ge 0,\Rightarrow x\le3\\x\not= 0\\\end{cases}$$所以定义域为$\{x|x\le3,且x\not=0\}$.3函数$f(x)=ln(\sqrt{1+x^2}-x)$的奇偶性为?(答案：奇函数)解答案1: https://www.zybang.com/question/1bfb772c63236322c8053d66d7bdeade.html答案2：https://www.zybang.com/question/b4d4975533597237fa43d86f9ee1dc44.html如何判断一个函数的奇偶性 一共有几种方法1、奇函数、偶函数的定义中,首先函数定义域D关于原点对称.它们的图像特点是：奇函数的图像关于原点对称,偶函数的图像关于X轴对称.即$f(x)＝-f(-x)$为奇函数,$f(x)＝f(-x)$为偶函数2、判断函数的奇偶性大致有下列二种方法：(1)用奇、偶函数的定义,主要考察f(-x)是否与-f(x) ,f(x) ,相等.(2)利用一些已知函数的奇偶性及下列准则：两个奇函数的代数和是奇函数；相同相加相同两个偶函数的代数和是偶函数；奇函数与偶函数的和既非奇函数,也非偶函数；相异相加全不是两个奇函数的乘积是偶函数；相同相乘是偶两个偶函数的乘积是偶函数；奇函数与偶函数的乘积是奇函数. 相异相乘是奇参考https://www.zybang.com/question/c2bb17b05b643ec99318cd9b79f92c89.html对数公式https://blog.csdn.net/flyawayl/article/details/78946137$log_aM^n=nlog_aM$${log_a}{\frac{M}{N}}=log_aM-log_aN$Latex语法多行公式等号对齐12345\begin&#123;align&#125; (a + b)^3 &amp;= (a + b) (a + b)^2 \\ &amp;= (a + b)(a^2 + 2ab + b^2) \\ &amp;= a^3 + 3a^2b + 3ab^2 + b^3\end&#123;align&#125;效果：$$\begin{align}(a + b)^3 &amp;= (a + b) (a + b)^2 \\&amp;= (a + b)(a^2 + 2ab + b^2) \\&amp;= a^3 + 3a^2b + 3ab^2 + b^3\end{align}$$参考链接Latex中使用align来对齐多行公式的排版技巧]]></content>
+      <categories>
+        <category>高数上</category>
+        <category>第一章</category>
+        <category>习题</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[hello]]></title>
     <url>%2Fblog%2F3610a686%2F</url>
     <content type="text"><![CDATA[你好呀本文链接: null]]></content>
