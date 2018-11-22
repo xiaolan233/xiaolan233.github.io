@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[hexo next主题博客中 文章中使用javascript和jquery]]></title>
+    <url>%2Fblog%2F7a1ad816%2F</url>
+    <content type="text"><![CDATA[目录描述演示效果实现使用javascript播放音频使用Jquery在代码块中显示当前时间使用jqurey播放audio描述之前知道可以在markdown文档中插入html标签,今天我发现其实也可以插入javascript脚本的。演示效果注意查看下面的代码框，记下当前的分钟，然后刷新当前页面后再查看。var d=new Date,span1=document.getElementById("span1");span1.innerText="当前分钟数->"+d.getMinutes()不出意料的话，上面代码框中的分钟数，与现在的分钟数是一致的。实现这个实现起来也很简单。把下面的JavaScript代码添加到markdown中即可：123456&lt;pre&gt;&lt;code&gt;&lt;span id="span1"&gt;&lt;/code&gt;&lt;/pre&gt;&lt;script type="text/javascript"&gt; var d = new Date(); var span1 = document.getElementById("span1"); span1.innerText = "当前分钟数-&gt;"+d.getMinutes();&lt;/script&gt;需要注意的是需要用空行把上述代码和正文中的其他文字分割开，不然hexo渲染成html文件的时候会出错。使用javascript播放音频1234567891011&lt;audio src="http://fanyi.baidu.com/gettts?lan=en&amp;text=document&amp;spd=3&amp;source=web" id="audio0"&gt;&lt;/audio&gt;&lt;input type="button" onclick="paly_audio0();" value="使用JS播放" /&gt;&lt;script&gt; function paly_audio0() &#123; //找到音频 var audio0 = document.getElementById("audio0"); if (audio0 != null) &#123; audio0.play(); &#125; &#125;&lt;/script&gt;显示效果：function paly_audio0(){var a=document.getElementById("audio0");null!=a&&a.play()}使用Jquery在代码块中显示当前时间测试代码：123456789&lt;script src="http://code.jquery.com/jquery-2.1.1.min.js"&gt;&lt;/script&gt;&lt;pre calss="run"&gt;&lt;code&gt;&lt;span id="jqueryTestId"&gt;点击查看运行结果&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;script&gt; $('#jqueryTestId').click(function () &#123; var jqueryTestId = document.getElementById('jqueryTestId'); var date = new Date(); jqueryTestId.innerHTML = "当前时间：" + date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds(); &#125;);&lt;/script&gt;效果：点击查看运行结果$("#jqueryTestId").click(function(){var e=document.getElementById("jqueryTestId"),t=new Date;e.innerHTML="当前时间："+t.getHours()+":"+t.getMinutes()+":"+t.getSeconds()})点击上面可以运行，这说明hexo next主题的文章中是可以使用jqurey的,可以通过这样来实现点击事件。使用jqurey播放audio12345678910111213原生audio控件：&lt;audio src="http://fanyi.baidu.com/gettts?lan=en&amp;text=document&amp;spd=3&amp;source=web" id="documentAudio"&gt;&lt;/audio&gt;&lt;audio src="http://fanyi.baidu.com/gettts?lan=en&amp;text=document&amp;spd=3&amp;source=web" controls="controls"&gt;&lt;/audio&gt;jquery播放：&lt;input type="button" id="documentPlay" value="点击播放document"/&gt;&lt;script&gt; $('#documentPlay').click(function () &#123; //找到音频 var documentAudio=document.getElementById('documentAudio'); if(documentAudio!=null) &#123; documentAudio.play(); &#125; &#125;)&lt;/script&gt;显示效果：原生audio控件：jquery播放：$("#documentPlay").click(function(){var n=document.getElementById("documentAudio");null!=n&&n.play()})本文链接: hexo next 主题 文章中插入使用JavaScript脚本]]></content>
+      <categories>
+        <category>Hexo搭建博客</category>
+        <category>Next主题配置</category>
+      </categories>
+  </entry>
+  <entry>
     <title></title>
     <url>%2Fblog%2F0%2F</url>
     <content type="text"><![CDATA[]]></content>
