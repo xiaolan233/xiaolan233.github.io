@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2Fblog%2F0%2F</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[函数解析式的七种求法]]></title>
     <url>%2Fblog%2F848ccb92%2F</url>
     <content type="text"><![CDATA[函数解析式的七种求法待定系数法例题1例题2函数解析式的七种求法求函数解析式的一般方法有待定系数法在已知函解析式的构造时,可用待定系数法。待定系数法例题1设$f(x)$是一次函数，而且$f[f(x)]=4x+3$，求$f(x)$?解设$f(x)=ax+b (a\not=0)$,则$f(f(x))=af(x)+b=a(ax+b)+b=a^2x+ab+b$。所以$$\begin{cases}a^2=4 \Rightarrow a=\pm 2\\ab+b=3\end{cases}$$所以得到，$$\begin{cases}a=2 \\b=1\end{cases}$$或者$$\begin{cases}a=-2 \\b=-3\end{cases}$$所以$f(x)=2x+1$或者$f(x)=-2x-3$例题2已知$f(x)$是一次函数,且$f[f(x)]=4x-1$求$f(x)$的解析式解设$f(x)=ax-b$,则$f[f(x)]=a[f(x)]-b=a[ax-b]-b=a^2x-ab-b=4x-1$,可以得到：$\begin{cases}a^2=4 \Rightarrow x=\pm 2 \\-ab-b=-1\end{cases}$ 解得 $\begin{cases}a=2 \\b=\dfrac{1}{3}\end{cases}$ 或者 $\begin{cases}a=-2 \\b=-1\end{cases}$配凑法已知复合函数$f[g(x)]$的表达式,求$f(x)$的解析式,$f[g(x)]$的表达式容易配成$g(x)$的运算形式时,常用配凑法。但要注意所求函数$f(x)$的定义域不是原复合函数的定义域,而是$g(x)$的值域。例题1已知$f(x+\dfrac{1}{x})=x^2+\dfrac{1}{x^2}(x&gt;0)$,求f(x)的解析式解因为$f(x+\dfrac{1}{x})=(x-\dfrac{1}{x})^2-2,x+\dfrac{1}{x}\le 2$,所以，$f(x)=x^2-x (x\ge 2)$Latex语法另一种分段函数的写法之前我一直认为分段函数好像只能写在行间，而不能写在行中。结果我错了，是可以写在行间的。只要美元符号紧靠同一行中的中的其他文本，那么这个公式就在行中显示。这样的好处就是紧凑一点，容易阅读。12345678显示效果：$ f(x)=\left\&#123;\begin&#123;aligned&#125;x &amp; = &amp; \cos(t) \\y &amp; = &amp; \sin(t) \\z &amp; = &amp; \frac xy\end&#123;aligned&#125;\right.$，$\begin&#123;cases&#125; a=-2 \\ b=-1 \end&#123;cases&#125;$显示效果：$ f(x)=\left\{\begin{aligned}x &amp; = &amp; \cos(t) \\y &amp; = &amp; \sin(t) \\z &amp; = &amp; \frac xy\end{aligned}\right.$，$\begin{cases} a=-2 \\ b=-1 \end{cases}$参考链接LaTeX编写分段函数本文链接: 函数解析式的七种求法]]></content>
@@ -41,15 +36,6 @@
         <category>高数上</category>
         <category>第一章</category>
         <category>习题</category>
-      </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[C语言头文件正确写法]]></title>
-    <url>%2Fblog%2F96819592%2F</url>
-    <content type="text"><![CDATA[一般写法自动生成源码C语言头文件生成工具参考链接一般写法例如这样有一根file.h头文件，一般写法如下1234567891011//file.h//条件编译#ifndef _FILE_H_ //如果没有引入头文件file.h #define _FILE_H_ //那就引入头文件file.h //结构体和函数声明.... //1 根据跟文件路径和模式获取文件指针 FILE* getFILE(char* filePath,char* mode); //2 使用临时文件替换原文件 void updateOldFileByNew(char*oldFileName,char*newFileName);#endif自动生成源码当然，手动写还是有点麻烦，所以我写了点js代码来自动生成：1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556&lt;html&gt;&lt;head&gt; &lt;meta charset="utf-8"&gt; &lt;title&gt;变成大写&lt;/title&gt;&lt;script&gt; function daxie() &#123; var input = document.getElementById("output"); if (input.value == null || input.value == "") &#123; alert("请先输入"); return; &#125; input.value = input.value.toUpperCase();//变成大写 &#125; function clean() &#123; document.getElementById("output").value=""; &#125; //复制方法 function copy() &#123; var in_output = document.getElementById("output"); in_output.select(); // 选择对象 document.execCommand("Copy"); // 执行浏览器复制命令 if(confirm("代码已经复制到剪贴板粘贴即可")) &#123; in_output.value=""; &#125; &#125; function cyuyantouwenjianshengming() &#123; var input = document.getElementById("output"); var oldValue = input.value; if (oldValue == null || oldValue == "") &#123; alert("请先输入头文件名(一个单词)"); return; &#125; var isOneWord = /^\w+$/; if (isOneWord.test(oldValue)) &#123; var daxie = input.value.toUpperCase();//变成大写 input.value = "//" + oldValue + ".h\n" + "#ifndef _" + daxie + "_H_ //如果没有引入头文件" + oldValue + ".h\n" + " #define _" + daxie + "_H_ //那就引入头文件" + oldValue + ".h\n" + "#endif"; copy(); &#125; else if (confirm("输入格式错误,是否清空输入框")) document.getElementById("output").value = ""; &#125;&lt;/script&gt;&lt;/head&gt;&lt;body&gt; &lt;textarea rows="5" id="output" style="width:99%;margin-right:auto"&gt;&lt;/textarea&gt; &lt;br&gt; &lt;input type="button" name="button1" id="button1" value="变成大写" onclick="daxie()" /&gt; &lt;input type="button" name="butto2" id="button2" value="生成c语言头文件声明" onclick="cyuyantouwenjianshengming()" /&gt; &lt;input type="button" name="butto2" id="button2" value="清空输入框" onclick="clean()" /&gt;&lt;/body&gt;&lt;/html&gt;效果,在下面文本框中输入文件名即可生成,然后把代码粘贴到头文件file.h中即可。C语言头文件生成工具function daxie(){var e=document.getElementById("output");return null==e.value||""==e.value?void alert("请先输入"):void(e.value=e.value.toUpperCase())}function clean(){document.getElementById("output").value=""}function copy(){var e=document.getElementById("output");e.select(),document.execCommand("Copy"),confirm("代码已经复制到剪贴板粘贴即可")&&(e.value="")}function cyuyantouwenjianshengming(){var e=document.getElementById("output"),t=e.value;if(null==t||""==t)return void alert("请先输入头文件名(一个单词)");var n=/^\w+$/;if(n.test(t)){var u=e.value.toUpperCase();e.value="//"+t+".h\n#ifndef _"+u+"_H_ //如果没有引入头文件"+t+".h\n #define _"+u+"_H_ //那就引入头文件"+t+".h\n#endif",copy()}else confirm("输入格式错误,是否清空输入框")&&(document.getElementById("output").value="")}参考链接https://blog.csdn.net/Com_ma/article/details/78546807https://blog.csdn.net/K346K346/article/details/48877773https://blog.csdn.net/wr132/article/details/65635003https://blog.csdn.net/abc_12366/article/details/79155540https://blog.csdn.net/wr132/article/details/65635003https://blog.csdn.net/wandermen/article/details/9254919https://blog.csdn.net/xhbxhbsq/article/details/78955216本文链接: C语言头文件正确写法]]></content>
-      <categories>
-        <category>C语言</category>
-        <category>代码规范</category>
       </categories>
   </entry>
 </search>
