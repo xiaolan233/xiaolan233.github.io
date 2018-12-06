@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[测试批处理发布]]></title>
+    <url>%2Fblog%2Fe011b698%2F</url>
+    <content type="text"><![CDATA[pause本文链接: null]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[java求排列组合数]]></title>
     <url>%2Fblog%2Fbeff4d4f%2F</url>
     <content type="text"><![CDATA[排列数公式组合数公式组合数性质参考文档function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()排列数公式$A^m_n=A(n,m)=n(n-1)(n-2)\cdot(n-m+1)=\dfrac{n!}{(n-m)!}$组合数公式$$C^m_n=C(n,m)=\dfrac{A^m_n}{A^m_m}=\dfrac{A(n,m)}{A(m,m)}\\=\dfrac{n(n-1)(n-2)\cdots(n-m+1)}{m!}=\dfrac{n!}{m!(n-m)!}$$规定：$C(n,0)=1$组合数性质即从m个不同元素中取出n个元素的组合数=从m个不同元素中取出(m-n)个元素的组合数；运用互补性质可以简化组合数的计算量。$$C_n^m=C_n^{n-m}$$123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354package com.lan.MathFunction;//求排列数组合数public class Test&#123; // 求排列数 A(n,m) n&gt;m public static int A(int n, int m) &#123; int result = 1; // 循环m次,如A(6,2)需要循环2次，6*5 for (int i = m; i &gt; 0; i--) &#123; result *= n; n--;// 下一次减一 &#125; return result; &#125; // 求组合数，这个也不需要了。定义式，不使用互补率 public static int C2(int n, int m) &#123; // int denominator=factorial(up);//分母up的阶乘 // 分母 int denominator = A(m, m);// A(6,6)就是求6*5*4*3*2*1,也就是求6的阶乘 // 分子 int numerator = A(n, m);// 分子的排列数 return numerator / denominator; &#125; public static int C(int n, int m)// 应用组合数的互补率简化计算量 &#123; int helf = n / 2; if (m &gt; helf) &#123; System.out.print(m + "----&gt;"); m = n - m; System.out.print(m + "\n"); &#125; // 分子的排列数 int numerator = A(n, m); // 分母的排列数 int denominator = A(m, m); return numerator / denominator; &#125; public static void main(String[] args) &#123; for (int i = 1; i &lt;= 6; i++) &#123; System.out.println("A(6," + i + ")=" + A(6, i)); &#125; for (int i = 1; i &lt;= 6; i++) &#123; System.out.println("C(6," + i + ")=" + C(6, i)); &#125; System.out.println("C(6,5)=" + C(6, 5));// 6 &#125;&#125;结果：1234567891011121314151617A(6,1)=6A(6,2)=30A(6,3)=120A(6,4)=360A(6,5)=720A(6,6)=720C(6,1)=6C(6,2)=15C(6,3)=204----&gt;2C(6,4)=155----&gt;1C(6,5)=66----&gt;0C(6,6)=15----&gt;1C(6,5)=6参考文档https://wenku.baidu.com/view/39f79decb04e852458fb770bf78a6529647d350f.html本文链接: java求排列组合数]]></content>
