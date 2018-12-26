@@ -12,9 +12,15 @@
       </categories>
   </entry>
   <entry>
-    <title></title>
-    <url>%2Fblog%2F0%2F</url>
-    <content type="text"><![CDATA[]]></content>
+    <title><![CDATA[1-5极限运算法则]]></title>
+    <url>%2Fblog%2F99683894%2F</url>
+    <content type="text"><![CDATA[极限的四则运算法则定理实例推论定理 极限的四则运算法则推论定理 数列极限四则运算和式的极限实例多项式分式的极限实例复合函数的极限运算法则定理实例无穷比无穷型极限&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()极限的四则运算法则定理有限个无穷小的和是无穷小有界函数与无穷小的乘积是无穷小注:这里函数的有界性只要求在无穷小的自变量变化范围内成立实例推论常数与无穷小的乘积是无穷小有限个无穷小的乘积是无穷小注无穷小的和、差，积仍是无穷小定理 极限的四则运算法则注1.此定理就是极限的四则运算法则,也即函数的和、差、积、商(B≠0)的极限等于函数极限的和、差、积、商.推论定理 数列极限四则运算和式的极限实例多项式分式的极限实例复合函数的极限运算法则定理实例无穷比无穷型极限本文链接: 1-5极限运算法则]]></content>
+      <categories>
+        <category>高数上</category>
+        <category>mooc</category>
+        <category>同济大学</category>
+        <category>第一章</category>
+      </categories>
   </entry>
   <entry>
     <title><![CDATA[三角函数及其图像]]></title>
