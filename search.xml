@@ -1,9 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[第1周 第3讲 古典概率]]></title>
+    <url>%2Fblog%2Fbbe541bb%2F</url>
+    <content type="text"><![CDATA[概率古典概率的定义古典概率的计算公式排列与组合加法原理乘法原理例题排列和组合的区别元素无重复排列全排列部分排列元素允许重复的排列组合单个组合多个分组古典概率的计算公式古典概率例题古典概率的性质&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()概率概率—表示事件A发生可能性大小的数值,称为事件A的概率,记为$P(A)$注意:概率是随机事件的函数古典概率的定义若试验的样本空间S满足:只有有限个样本点一有限性,每个样本点发生的可能性相等一等可能性称此试验为古典概型试验古典概率的计算公式在古典概型下,事件A的概率定义为:$P(A)=\dfrac{A所含样本点数}{S含样本点总数}$这里计算样本点数的主要工具是排列、组合排列与组合加法原理设完成一件事有m种方式,第一种方式有$n_1$种方法,第二种方式有$n_2$种方法,……第m种方式有$n_m$种方法.则完成这件事总共有$n_1+n_2+\cdots+n_m$种方法乘法原理设完成一件事必须经过$r$个步骤:第一个步骤有$n_1$种方法,第二个步骤有$n_2$种方法,第三个步骤有$n_3$种方法,……第r个步骤有$n_r$种方法。则完成这件事总共有$n_1\times n_2 \times \cdots \times n_r$种方法例题排列和组合的区别组合不管顺序顺序不同则是不同的是排列元素无重复排列全排列(1)将n个不同元素按照一定次序排成一列,称为全排列,全排列的个数为:例1例2部分排列例1例2元素允许重复的排列组合单个组合例子多个分组例子古典概率的计算公式在古典概型下,事件A的概率定义为:古典概率例题古典概率的性质本文链接: 第1周 第3讲 古典概率]]></content>
+      <categories>
+        <category>概率论与数理统计</category>
+        <category>哈工大慕课</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[第1周 第2讲 事件的关系与运算]]></title>
+    <url>%2Fblog%2Ff893c5f4%2F</url>
+    <content type="text"><![CDATA[事件的关系事件的包含事件的相等事件的积(交)互不相容事件(互斥事件)事件的和(并)事件的差对立事件(逆事件)例题事件的运算性质交换律 结合律 分配律德摩根定律例题习题习题1习题2习题3习题4习题5习题6习题7&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()事件的关系事件的包含$A\subset B$:事件4发生必导致事件B发生例如掷一颗均匀的骰子,A=”出现2点”,B=”出现偶数点” 则$A\subset B$事件的相等事件的积(交)互不相容事件(互斥事件)事件的和(并)事件的差对立事件(逆事件)例子例题事件的运算性质交换律 结合律 分配律德摩根定律例题习题习题1这题考德摩根定律习题2画图就可以看出了习题3AB表示两人都射中,取逆则表示两人都没射中习题4习题5直接画图可求出习题6互斥:就是两个的交集为空集，画图，分别求A与各选项的交集，哪个是空集就是哪个。习题7画图,逐个往后运算可得结果本文链接: 第1周 第2讲 事件的关系与运算]]></content>
+      <categories>
+        <category>概率论与数理统计</category>
+        <category>哈工大慕课</category>
+      </categories>
+  </entry>
+  <entry>
+    <title><![CDATA[第1周第1讲 随机事件]]></title>
+    <url>%2Fblog%2F393829f%2F</url>
+    <content type="text"><![CDATA[自然界的两类现象基本事件,样本空间基本事件(样本点)样本空间随机事件定义事件发生事件如何表示必然事件,不可能事件必然事件不可能事件小结习题习题1习题2习题3习题4习题5&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()自然界的两类现象必然现象特点:结果事先可预知随机现象特点:结果事先不可预知基本事件,样本空间基本事件(样本点)随机试验的每一个可能结果,用$e$表示样本空间基本事件或样本点的全体构成的集合,用S表示随机事件定义样本空间S的某个子集A称为随机事件,简称事件A事件发生当且仅当A中某个样本点出现,称事件A发生事件如何表示事件A可以用语言表示,也可以用集合表示必然事件,不可能事件必然事件样本空间S包含所有的基本事件,故在每次试验中都发生,因此称为必然事件不可能事件空集 $\emptyset$不包含任何基本事件,故在每次试验中不发生,因此称为不可能事件小结习题习题1习题2习题3我不明白，不应该是6吗，可能答案错了吧。其实答案没有错，可能的结果有:01,02,10,12,20,21这6种.但是01=1，1不是两位数，02=2，2也不是两位数。所以只有10,12,20,21这四种可能的结果。习题4习题5本文链接: 第1周第1讲 随机事件]]></content>
+      <categories>
+        <category>概率论与数理统计</category>
+        <category>哈工大慕课</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[1-1样本空间和随机事件]]></title>
     <url>%2Fblog%2Fa7e25d4a%2F</url>
-    <content type="text"><![CDATA[随机试验事件随机事件与样本空间的关系怎样一个事件发生了&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()随机试验概率论中具有下述三个特点的试验称为随机试验:试验可以在相同条件下重复地进行;试验的所有可能结果在试验前已经明确,并且不止一个;试验前不能确定试验后会出现哪一个结果事件在随机试验中,对于一次试验可能发生也可能不发生,而在大量重复试验中具有某种规律性的事情称为随机事件,简称事件用大写字母A,B,C等来表示随机事件随机事件与样本空间的关系随机事件实际上为样本空间的一个子集怎样一个事件发生了事件A发生当且仅当事件A所包含的一个样本点出现基本事件仅包含一个样本点的事件称为基本事件必然事件每次试验中一定发生的事件称为必然事件不可能事件每次试验中一定不发生的事件称为不可能事件,记为本文链接: 1-1样本空间和随机事件]]></content>
+    <content type="text"><![CDATA[随机试验事件随机事件与样本空间的关系怎样一个事件发生了&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()随机试验概率论中具有下述三个特点的试验称为随机试验:试验可以在相同条件下重复地进行;试验的所有可能结果在试验前已经明确,并且不止一个;试验前不能确定试验后会出现哪一个结果事件在随机试验中,对于一次试验可能发生也可能不发生,而在大量重复试验中具有某种规律性的事情称为随机事件,简称事件用大写字母A,B,C等来表示随机事件随机事件与样本空间的关系随机事件实际上为样本空间的一个子集怎样一个事件发生了事件A发生当且仅当事件A所包含的一个样本点出现基本事件仅包含一个样本点的事件称为基本事件必然事件每次试验中一定发生的事件称为必然事件不可能事件每次试验中一定不发生的事件称为不可能事件,记为$ \emptyset $本文链接: 1-1样本空间和随机事件]]></content>
       <categories>
         <category>概率论与数理统计</category>
         <category>同济大学</category>
