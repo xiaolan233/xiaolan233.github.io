@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[NJUPT 高数下 第三节课]]></title>
+    <url>%2Fblog%2F943aacd5%2F</url>
+    <content type="text"><![CDATA[法线法平面 法平面 法线课堂练习_7练习1答案_8练习2答案_9练习3答案_10例5_1213例6_14课堂练习2_15练习4答案_16练习5答案_17梯度梯度公式_19例7_20多元函数的极值1、多元函数的极值_21例9_22_232、条件极值、拉格朗日乘数法_24例10_25例11_26课堂练习3_27练习6答案_28课堂练习7答案_29&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()法线法平面 法平面 法线课堂练习_7练习1答案_8练习2答案_9练习3答案_10例5_1213例6_14课堂练习2_15练习4答案_16练习5答案_17梯度梯度公式_19例7_20多元函数的极值1、多元函数的极值_21例9_22_232、条件极值、拉格朗日乘数法_24例10_25例11_26课堂练习3_27练习6答案_28课堂练习7答案_29本文链接: NJUPT 高数下 第三节课]]></content>
+      <categories>
+        <category>高数下</category>
+        <category>njupt</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[指数与指数幂的运算]]></title>
     <url>%2Fblog%2F7f326a44%2F</url>
     <content type="text"><![CDATA[整数指数幂运行公式整数指数幂定义整数指数幂的运算性质参考资料&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()指数与指数幂的运算整数指数幂运行公式整数指数幂定义整数指数幂的运算性质参考资料本文链接: 指数与指数幂的运算]]></content>
