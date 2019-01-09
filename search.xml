@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[4-2不定积分的性质与基本积分表]]></title>
+    <url>%2Fblog%2F4a72fb12%2F</url>
+    <content type="text"><![CDATA[&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()不定积分与导数的关系基本积分表不定积分的基本运算性质性质1性质2简单不定积分的计算举例本文链接: 4-2不定积分的性质与基本积分表]]></content>
+      <categories>
+        <category>高数上</category>
+        <category>mooc</category>
+        <category>同济大学</category>
+        <category>第4章</category>
+      </categories>
+  </entry>
+  <entry>
     <title><![CDATA[习题册 4-1不定积分的概念与性质]]></title>
     <url>%2Fblog%2Fbf6d890f%2F</url>
     <content type="text"><![CDATA[题1&nbsp;function open_closeTOC(){var e=document.querySelector(".post-body > ul");"block"==e.style.display?(e.style.display="none",document.getElementById("showcloseButton").value="展开目录"):"none"==e.style.display&&(e.style.display="block",document.getElementById("showcloseButton").value="折叠目录")}function copyPageURL(){const e=document.createElement("input");e.setAttribute("readonly","readonly"),e.setAttribute("value",window.location.href),document.body.appendChild(e),e.select(),document.execCommand("copy")&&alert("已复制: "+e.value),document.body.removeChild(e)}!function(){document.querySelector(".post-body > ul").style.display="none",document.getElementById("showcloseButton").value="展开目录"}()要求: 理解原函数，不定积分的概念与性质，熟记基本积分公式题1已知$f(x)=\dfrac{1}{2}\sin^2x$,$g(x)=-\dfrac{1}{4}\cos 2x$,$h(x)=-\dfrac{1}{4}cos ^2x$,试问$f(x),g(x),h(x)$是同一个函数的原函数吗？$\sin2\alpha=2\sin\alpha\cos\alpha$解:如果$F’(x)=f(x)$,则:$F(x)$是$f(x)$的原函数$f’(x)=\dfrac{1}{2}2\sin x\cos x=\dfrac{1}{2}\sin2x$$g’(x)=-\dfrac{1}{4}(-sin2x)2=\dfrac{1}{2}sin2x$$h’(x)=-\dfrac{1}{4}2cosx(-sinx)=\dfrac{1}{2}sinxcosx=\dfrac{1}{2}sin2x$所以$f(x),g(x),h(x)$都是$\dfrac{1}{2}sin2x$的原函数题2设$F(x)$是$f(x)=-\dfrac{1}{1+x^2}$的一个原函数，且$F(0)=\dfrac{\pi}{2}$,求$F(x)$本文链接: 习题册 4-1不定积分的概念与性质]]></content>
